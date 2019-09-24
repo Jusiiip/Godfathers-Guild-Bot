@@ -33,6 +33,12 @@ client.on('message', message => {
     }
  });
 
+client.on('message', message => {
+    if (message.content.startsWith(`${prefix}checkbalance`)) {
+       message.channel.send("1000000 silver");
+    }
+ });
+
 client.on('message', message =>{
 
     //if(message.member.hasPermission(['KICK_MEMBERS', 'BAN_MEMBERS']))
