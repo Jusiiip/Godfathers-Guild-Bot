@@ -69,7 +69,7 @@ client.on('message', message => {
  client.on('message', message => {
     if (message.content.startsWith(`${prefix}gvg`)) {
        message.delete(1000); //Supposed to delete message
-       message.channel.send("@Everyone We are looking for members to be apart of some GVG team for the next season. So if you would like to join fill out the requiremeants you have in the example teamplate below.thankyou to everyone who applys and see you in the arena.   (EXAMPLE) IGN: (Name) Class type: Damage AOE Main Weapon: (Permafrost Prism) - LEVEL/SPEC Main Chest:  (Scholar Robes) -100/85 Main Boots: (Cleric Sandals) - 100/85 Main Helmet: (Royal Cowl) -100/85 Others: Weapons - Great axe-100 Head - Hunter hood-100 Chest - assassin jacket-100 Shoes - hunter shoes-100 ");
+       message.channel.send("@Everyone We are looking for members to be apart of some GVG team for the next season. \n So if you would like to join fill out the requiremeants you have in the example teamplate below. \n thankyou to everyone who applys and see you in the arena.   \n \n (EXAMPLE) \n\n IGN: (Name) \n Class type: Damage AOE \n Main Weapon: (Permafrost Prism) - LEVEL/SPEC \n Main Chest: (Scholar Robes) -100/85 \n Main Boots: (Cleric Sandals) - 100/85 \n Main Helmet: (Royal Cowl) -100/85 \n \n Others: \n \n Weapons - Great axe-100 \n Head - Hunter hood-100 \n Chest - assassin jacket-100 \n Shoes - hunter shoes-100 ");
     }
  });
 
